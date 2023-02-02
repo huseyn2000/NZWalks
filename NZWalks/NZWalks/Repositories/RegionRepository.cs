@@ -34,8 +34,6 @@ namespace NZWalks.Repositories
             nZWalksDbContext.Remove(region);
             nZWalksDbContext.SaveChangesAsync();
             return region;
-
-
         }
 
         public async Task<IEnumerable<Region>> GetAllAsync()
